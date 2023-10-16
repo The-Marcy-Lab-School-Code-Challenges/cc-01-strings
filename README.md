@@ -10,31 +10,16 @@
 
 ## Code Problems
 
-1. Declare a function named `reverseString` that takes in a string argument and returns the reversed version of the string, without using any `.reverse()` JavaScript methods. **Hint:** How can you use a loop iterate through a string backwards?
+1. Declare a function named `reverseBothStrings` that takes in two string arguments and returns the reversed version of both strings concatenated with a white space. Solve without using any `.reverse()` JavaScript methods. **Hint:** How can you use a loop iterate through a string backwards?
 ```
+reverseString("first", "second")  //"tsrif dnoces"
+reverseString("hello", "Carmen")  //"olleh nemraC"
+reverseString("", "oo")       // " oo"
+```
+
+1. Declare a function named `reverseAllStrings` that takes in any number of string arguments and returns the reversed version of all the arugments concatenated with a white space. Solve without using any `.reverse()` JavaScript methods.
+```
+reverseString("first", "second", "third")  //"tsrif dnoces drith"
 reverseString("hello")  //"olleh"
-reverseString("oo")     //"oo"
-reverseString("")       //""
+reverseString("code", "challenge", "is", "fun") // "edoc egnellahc si nuf" 
 ```
-
-2. Declare a function named `reverseUpperCaseString` that takes in a string argument and returns the reversed version of the string with all letter uppercased, without using any `.reverse()` JavaScript methods.
-```
-reverseUpperCaseString("hello") //"OLLEH"
-reverseUpperCaseString("oo")    //"OO"
-reverseUpperCaseString("")      //""
-```
-
-3. Declare a function named `sumInArray` that will calculate the sum of all the elements in an array of numbers. You must solve this without using any built-in array methods by iterating through the array.  
-```
-sumInArray([2,4,5,7,8]) // returns 26
-sumInArray([2,2,5,10]) // returns 19
-sumInArray([2,2,2,2,2]) //returns 10
-```
-
-4. Declare a function named `averageInArray` that will calculate the  average of the elements in an array of numbers. You must solve this without using any built-in array methods by iterating through the array.  
-```
-averageInArray([2,4,5,7,8]) // returns 5.2
-averageInArray([2,2,5,10]) // returns 4.75
-averageInArray([2,2,2,2,2]) //returns 2
-```
-
