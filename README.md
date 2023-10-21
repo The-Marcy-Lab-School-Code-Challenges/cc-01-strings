@@ -17,7 +17,7 @@ reverseString("hello", "Carmen")  //"olleh nemraC"
 reverseString("", "oo")       // " oo"
 ```
 
-1. Declare a function named `reverseAllStrings` that takes in any number of string arguments and returns the reversed version of all the arugments concatenated with a white space. Solve without using any `.reverse()` JavaScript methods.
+2. Declare a function named `reverseAllStrings` that takes in any number of string arguments and returns the reversed version of all the arugments concatenated with a white space. Solve without using any `.reverse()` JavaScript methods.
 ```
 reverseString("first", "second", "third")  //"tsrif dnoces drith"
 reverseString("hello")  //"olleh"
